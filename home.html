@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <link rel="stylesheet" href="style.css" type="text/css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+    <style>
+    body{
+        background-image: url(images/homepage.webp);
+       background-size:cover;
+       background-repeat: no-repeat;}
+       #slider{
+  overflow: hidden;
+}
+#slider figure{
+position: relative;
+width:300%;
+margin: 0;
+left: 0;
+animation: 8s slider infinite;
+}
+#slider figure img{
+  width: 10%;
+  float: left;
+}
+@keyframes slider {
+    0% {
+left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300px;
+    }
+    90% {
+        left: -300px;
+    }
+    100% {
+        left: -400%;
+    }
+}
+.story{
+font-size: xx-large;
+font-style: italic;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="images/logo1.png" alt="Logo Image"></li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Contact.html">Contact & Order</a></li>
+        </ul>
+    </nav>
+
+    <h1>The Lazy Store</h1>
+    <section id="hero">
+        <div class="container">
+        <div class="info">
+          <h1>Who We Are?</h1>
+          <h2> <p class="story">Our Story</p>
+            At the Lazy Company we have been serving our clients since 2008 and will continue to do so by providing high quality merchandise to our clientele. We have limited amounts of offerings due to specializing in a varierty of items, such as clothing,electronics, and artwork. Below are our items available for purchase. Please be mindful some items are available for our winter season drop, while others are available for preorder.
+         </h2>
+          <a href="Products.html">Our Products</a>
+        </div>
+        </div>
+      </section>
+<div id="slider">
+<figure>
+   <img src="images/syncjam.webp" height="515px" alt="Sync Jam Shirt">
+    <img src="images/chain.webp" height="515px" alt="Gold Chain">
+    <img src="images/art.webp" height="515px" alt="Japanese Art">
+    <img src="images/ASC.webp" height="515px" alt="Anti Social Club">
+    <img src="images/vlobe.webp" height="515px" alt="Vlone Hoodie">
+    <img src="images/vynil.webp" height="515px" alt="Record Player">
+    <img src="images/nikemags.jpeg" height="515px" alt="Nike Mags">
+    <img src="images/steamdeck.webp" height="515px" alt="Steamdeck">
+    <img src="images/switch.webp" height="515px" alt="Nintendo Switch">
+    <img src="images/backpack.webp" height="515px" alt="Backpack">
+
+</figure>
+</div>
+</body>
+<footer class="footerlinks">
+    <a href="https://www.facebook.com" class="fa fa-facebook" aria-label="facebook logo"></a>
+    <a href="https://www.twitter.com" class="fa fa-twitter" aria-label="twitter link"></a>
+    <a href="https://www.youtube.com" class="fa fa-youtube" aria-label="youtube link"></a>
+    <a href="https://www.instagram.com" class="fa fa-instagram" aria-label="instagram link"></a>
+  </footer>
+</html>
