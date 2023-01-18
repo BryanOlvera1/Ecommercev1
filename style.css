@@ -244,7 +244,7 @@ h2{ background-color: darkcyan;
     }
     @media screen and (min-width: 901px) and (max-width: 1900px) {
       html {
-        font-size: 10px;
+        font-size: 20px;
       }
       .footerlinks {
         overflow: auto;
