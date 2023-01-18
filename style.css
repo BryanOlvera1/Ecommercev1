@@ -210,48 +210,8 @@ h2{ background-color: darkcyan;
         font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
       }
     /* responsivness */
-    /* @media only screen and (max-width:800px) {
-      html {
-        font-size: 10px;
-      }
-      .footerlinks {
-        overflow: auto;
-      }
-        .form {
-          margin: 0 auto;
-          
-      }
-    }
-    @media all and (max-width:800px) {
-      .nav {
-        display: none;
-        margin: 0 auto;
-      }
-    .form {
-        margin: 5rem;
-      }
-    }
-    @media all and (max-width:1900px) {
-      .nav {
-        display: none;
-        margin: 0 auto;
-      }
-    .form {
-        margin: 5rem;
-      }
-    }
-    @media only screen and (max-width:1900px) {
-      html {
-        font-size: 10px;
-      }
-      .footerlinks {
-        overflow: auto;
-      }
-        .form {
-          margin: 5rem;
-          
-      }
-    } */
+    
+
     @media screen and (min-width: 375px) and (max-width: 800px) {
       html {
         font-size: 10px;
